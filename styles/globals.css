@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500;700&display=swap");
+
+html,
+body,
+#__next {
+  min-height: 100vh;
+  background: var(--bg-body);
+  background-image: url("/BannerEffect.png");
+  background-repeat: no-repeat;
+  background-position-x: 115%;
+}
+
+:root {
+  --bg-body: #ece5dd;
+  --color-primary: #25d366;
+  --color-divisor: #cccccc59;
+  --color-light: #fff;
+  --color-green-black: #23b75a;
+  --text-light: #fff;
+  --text-black: #333;
+  --text-muted: #909090;
+  --text-blue: #34b7f1;
+  --box-shadow: #00000030;
+  --box-shadow-hover: #00000070;
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+  place-items: center;
+}
