@@ -1,30 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="./public/favicon.ico" align="center" width="200" alt="Logo projeto">
+</p>
 
-## Getting Started
+<h1 align="center" style="border-bottom:none">Whatsapp Landing Page</h1>
+<p align="center">
+    Redesign do website do whatsapp
+</p>
 
-First, run the development server:
+<p align="center">  
+  <img src="https://img.shields.io/github/languages/count/vduggen/Whatsapp-Landing-Page">
+  <img src="https://img.shields.io/github/languages/top/vduggen/Whatsapp-Landing-Page">
+</p>
+
+<p align="center">
+  <img src="./public/screenshot.png" alt="foto da aplicação" />
+</p>
+
+## Tabela de conteúdos
+   * [Sobre](#Sobre)
+   * [Pré Requisitos](#pre-requisitos)    
+   * [Como usar](#como-usar)
+   * [Tecnologias](#tecnologias)
+   * [Como Contribuir](#contribuir)
+   * [Licença](#licença)
+   
+<h2 id="Sobre">Sobre o Projeto</h2>
+Projeto feito para práticar e aprender mais sobre UI/UX e também sobre o framework Nextjs e Typescript.
+
+Figma: https://www.figma.com/file/OkWK4GXJtbluzddJfC3lj0/Whatsapp-Landing-Page?node-id=0%3A1
+
+<h2 id="pre-requisitos">Pré Requisitos</h2>
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: <br />
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/). 
+
+<br />
+
+Além disto é bom ter um editor para trabalhar com o código como: <br />
+- [VSCode](https://code.visualstudio.com/)
+
+<h2 id="como-usar">Rodando o Front-end</h2>
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone <https://github.com/vduggen/Whatsapp-Landing-Page>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Whatsapp-Landing-Page
+
+# Instale as dependências
+$ npm install ou yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev ou yarn dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="tecnologias">Tecnologias</h2>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
+- [Nextjs](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="contribuir">Como contribuir</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Faça um fork desse repositório;
+1. Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+1. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+1. Faça push para a sua branch: `git push origin minha-feature`.
 
-## Deploy on Vercel
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2 id="licença">Licença</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
